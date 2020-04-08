@@ -1,10 +1,16 @@
+/*
+File Name : index.js
+Student Name : Dhruv vyas 
+Student Id : 100734385
+Date : 7-april-2020
+*/
 let express = require('express');
 let router = express.Router();
 
 let controllers = require('../controllers/index');
 
 /* ROUTES SECTION */
-
+/*
 /* GET home page. */
 router.get('/', (req, res, next) => {
   controllers.displayHome(res);
